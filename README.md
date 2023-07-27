@@ -23,7 +23,7 @@ La entrada consiste en una instantánea de la fila de evaluación, que contiene 
 ```
 #team #problem time result
 ```
-Donde el resultado puede ser 'C', 'I', 'R', 'U' o 'E'. Estos representan la presentación correcta (*Correct*), incorrecta (*Incorrect*), de solicitud de aclaración (*Request*), no juzgada (*Unjudged *) y errónea (*Erroneous *). Los últimos tres casos no afectan la puntuación.
+Donde *result* puede ser 'C', 'I', 'R', 'U' o 'E'. Estos representan la presentación correcta (*Correct*), incorrecta (*Incorrect*), de solicitud de aclaración (*Request*), no juzgada (*Unjudged *) y errónea (*Erroneous *). Los últimos tres casos no afectan la puntuación.
 
 Las líneas de entrada están en el orden en que se recibieron los envíos.
 
