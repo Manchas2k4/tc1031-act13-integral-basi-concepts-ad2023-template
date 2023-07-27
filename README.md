@@ -12,7 +12,14 @@ En este repositorio encontrarás los archivos de entrada, así como las salidas 
 ```
 <span style="text-decoration: underline;">De manera individual</span>, desarrolla la solución del siguiente problema:
 
-El canal de Suez es un canal navegable que conecta el mar Mediterráneo con el mar Rojo a través de alrededor de 190 km, uniendo por un el lado del mar Mediterráneo desde el puerto Said hasta el golfo de Suez en el mar Rojo. Este canal es navegado entre 49 y 97 barcos diariamente. Se tiene un registro de los barcos que navegan por el canal con el siguiente formato:
+Un **concurso de programación competitiva** es un concurso de programación algorítmica para estudiantes universitarios. En equipos de tres trabajarán para resolver la mayoría de los problemas del mundo real, fomentando la colaboración, la creatividad, la innovación y la capacidad de desempeñarse bajo presión. 
+
+Los equipos concursantes se clasifican primero por la cantidad de problemas resueltos (cuantos más, mejor), luego por la cantidad decreciente de tiempo de penalización. Si dos o más participantes están empatados tanto en problemas resueltos como en tiempo de penalización, se califican en orden creciente de número de equipo.
+
+Un problema se considera resuelto por un equipo concursante si alguna de las presentaciones para ese problema se consideró correcta. El tiempo de penalización se calcula como la cantidad de minutos que tomó el primer envío correcto para que se recibiera un problema más 20 minutos por cada envío incorrecto recibido antes de la solución correcta. Si existe un envío posterior de un problema ya resuelto, no se toma en cuenta. Los problemas no resueltos no incurren en penalizaciones de tiempo.
+
+## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
+
 ```
 <fecha> <hora> <punto-entrada> <UBI-Identificador único del buque>
 ```
