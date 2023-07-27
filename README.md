@@ -19,24 +19,16 @@ Los equipos concursantes se clasifican primero por la cantidad de problemas resu
 Un problema se considera resuelto por un equipo concursante si alguna de las presentaciones para ese problema se consideró correcta. El tiempo de penalización se calcula como la cantidad de minutos que tomó el primer envío correcto para que se recibiera un problema más 20 minutos por cada envío incorrecto recibido antes de la solución correcta. Si existe un envío posterior de un problema ya resuelto, no se toma en cuenta. Los problemas no resueltos no incurren en penalizaciones de tiempo.
 
 ## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
+La entrada consiste en una instantánea de la fila de evaluación, que contiene entradas de algunos o todos los concursantes del 1 al 100 que resuelven los problemas del 1 al 9. Cada línea de entrada constará de tres números y una letra:
+```
+#team #problem time result
+```
+Donde el resultado puede ser 'C', 'I', 'R', 'U' o 'E'. Estos representan la presentación correcta (*Correct*), incorrecta (*Incorrect*), de solicitud de aclaración (*Request*), no juzgada (*Unjudged *) y errónea (*Erroneous *). Los últimos tres casos no afectan la puntuación.
 
-```
-<fecha> <hora> <punto-entrada> <UBI-Identificador único del buque>
-```
-Ejemplo:
-```
-03-01-20 13:45 M 8PAK7
-```
-Donde:
-* El punto de entrada puede ser **M – Mar Mediterráneo** y **R – Mar Rojo**.
-* La fecha estará entre **01-ENE-2020** y **31-DIC-2020**.
-* El tiempo estará en formato de 24 Hrs.
-
-## <span style="color: rgb(26, 99, 169);">**Entrada**</span>
-La primera línea de entrada contiene dos elementos: un entero *n*, el número de barcos que ha entrado al canal, y una cadena de 3 tres caracteres *prefix*, el prefijo del UBI a búscar. Las siguientes *n* líneas; contiene el registro de los barcos que han entrado al canal con el formato descrito anteriormente.
+Las líneas de entrada están en el orden en que se recibieron los envíos.
 
 ## <span style="color: rgb(26, 99, 169);">**Salida**</span>
-Deberás desplegar sólo los registros cuyo UBI empiece con *prefix*, ordenados con el siguiente criterio: fecha, hora, entrada y ubi.
+La salida consistirá en un marcador ordenado como se ha descrito anteriormente. Cada línea de salida contendrá un número de concursante, el número de problemas resueltos por el concursante y el tiempo de penalización acumulado por el concursante. Dado que no todos los concursantes del 1 al 100 están participando, muestre solo los concursantes que han realizado una presentación.
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
