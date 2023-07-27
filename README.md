@@ -32,33 +32,17 @@ La salida consistirá en un marcador ordenado como se ha descrito anteriormente.
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de entrada**</span>
 ```
-16 2HU
-01-01-20 00:17 R 2HUN5
-01-01-20 00:37 R 2AET2
-01-01-20 00:57 M 2HUQ5
-01-01-20 01:17 M 2FRW0
-01-01-20 01:37 M 4MXV8
-01-01-20 01:57 R 2HUG7
-01-01-20 02:17 R 1KIH9
-01-01-20 02:37 R 2HUX2
-01-01-20 02:57 M 3CFE2
-01-01-20 03:17 R 1TLD0
-01-01-20 03:37 R 3FRF4
-01-01-20 03:57 R 2HUK8
-01-01-20 04:17 M 0CFR7
-01-01-20 04:37 R 0TQL9
-01-01-20 04:57 R 2HUS4
-01-01-20 05:17 R 0FRX0
+1 2 10 I
+3 1 11 C
+1 2 19 R
+1 2 21 C
+1 1 25 C
 ```
 
 ## <span style="color: rgb(26, 99, 169);">**Ejemplo de salida**</span>
 ```
-01-01-20 00:17 R 2HUN5
-01-01-20 00:57 M 2HUQ5
-01-01-20 01:57 R 2HUG7
-01-01-20 02:37 R 2HUX2
-01-01-20 03:57 R 2HUK8
-01-01-20 04:57 R 2HUS4
+1 2 66
+3 1 11
 ```
 
 Para probar tu implementación, compila tu programa con el comando:
